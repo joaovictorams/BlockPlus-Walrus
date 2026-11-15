@@ -2,7 +2,7 @@
 
 Encrypted file storage on **Walrus**, the decentralized storage network built on Sui. Sign up with a Sui wallet, then upload, download and delete files.
 
-> Looking for the CESS version? See [../README.MD](../README.MD).
+> Looking for the CESS version? See [BlockPlus-CESS](https://github.com/joaovictorams/BlockPlus-CESS).
 
 ## Requirements
 
@@ -36,8 +36,8 @@ Asked by `npm start` / `npm run setup` and saved in `Walrus/back-end/.env`:
 | Sign-up fee | `0.1` SUI |
 | Owner of stored blobs | your wallet |
 
-- 🔑 **Back up `WALRUS_ENCRYPTION_KEY`** in `Walrus/back-end/.env`. Files are encrypted with it before upload; without it they can't be recovered.
-- 👛 To sign up, users need a Sui wallet extension (e.g. Slush) on **Testnet** with free SUI from https://faucet.sui.io. Paying from the fee wallet itself is rejected; for single-wallet testing add `ALLOW_SELF_PAYMENT="true"` to the `.env`.
+- **Back up `WALRUS_ENCRYPTION_KEY`** in `Walrus/back-end/.env`. Files are encrypted with it before upload; without it they can't be recovered.
+- To sign up, users need a Sui wallet extension (e.g. Slush) on **Testnet** with free SUI from https://faucet.sui.io. Paying from the fee wallet itself is rejected; for single-wallet testing add `ALLOW_SELF_PAYMENT="true"` to the `.env`.
 
 ## How Walrus works
 
