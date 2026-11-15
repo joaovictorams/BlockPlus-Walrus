@@ -1,0 +1,15 @@
+{
+  "name": "blockplus-walrus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Block+ on Walrus (Sui) decentralized storage. One command runs the API and the web app.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "postinstall": "npm install --prefix back-end && npm install --prefix front-end",
+    "start": "node scripts/start.js",
+    "setup": "node scripts/start.js --setup"
+  }
+}
